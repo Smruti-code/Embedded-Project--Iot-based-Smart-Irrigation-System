@@ -69,7 +69,7 @@ The project also includes data analysis using real sensor readings and synthetic
 | Relay module input (IN) | GPIO 25 |
 | Sensor VCC and GND | According to the module specifications |
 | Relay VCC and GND 
-**Important:** Use an appropriate external supply for the water pump. Do not power the pump directly from an ESP32 GPIO pin. Ensure the relay, pump supply, and grounding are connected correctly according to the circuit design.
+
 
 ## ⚙️ Working Principle
 
@@ -133,7 +133,6 @@ The dashboard supports three types of analytics:
 
 ## 🔮 Future Enhancements
 
-- Improve prediction accuracy using more diverse, time-aligned real sensor data.
 - Add rainfall and weather information.
 - Introduce plant-specific irrigation thresholds.
 - Add notifications for dry soil, pump failures, or low water supply.
@@ -143,4 +142,4 @@ The dashboard supports three types of analytics:
 
 
 
-**Note:** This project was developed for educational and experimental purposes. Verify the hardware connections, Firebase configuration, and model evaluation results before using the system in a real irrigation environment.
+
